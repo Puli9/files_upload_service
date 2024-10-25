@@ -58,7 +58,7 @@ npm install
 3. Set up environment variables:
 Create a `.env` file in the root directory and add:
 ```bash
-MONGODB_URI=mongodb://localhost:27017/file-upload-service
+MONGODB_URI=your_mongodb_connection_string
 PORT=3000
 ```
 
@@ -94,7 +94,7 @@ MongoDB connected successfully
    - Go to the Body tab, select form-data
    - Add a key `file` of type File and select a file from your system
    - Click Send
-- **Response**:
+- **Response**(Example):
 ```json
 {
   "message": "File uploaded successfully",
